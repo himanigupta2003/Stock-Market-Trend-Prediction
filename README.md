@@ -5,6 +5,7 @@ All the algorithms are not able to predict the prices. In fact they are not even
 
 The project contains the final report and if you are interested you can have a look at it.
 
+# Detail
 An SVM-based approach is proposed for stock market trend prediction. The proposed approach consists of two parts: feature selection and prediction model. In the feature selection part, a correlation-based SVM filter is applied to rank and select a good subset of financial indexes. And the stock indicators are evaluated based on the ranking. In the prediction model part, a so called quasi-linear SVM is applied to predict stock market movement direction in term of historical data series by using the selected subset of financial indexes as the weighted inputs. The quasi-linear SVM is an SVM with a composite quasi-linear kernel function, which approximates a nonlinear separating boundary by multi-local linear classifiers with interpolation. Experimental results on Taiwan stock market datasets demonstrate that the proposed SVM-based stock market trend prediction method produces better generalization performance over the conventional methods in terms of the hit ratio. Moreover, the experimental results also show that the proposed SVM-based stock market trend prediction system can find out a good subset and evaluate stock indicators which provide useful information for investors.
 
 # Stock Market
